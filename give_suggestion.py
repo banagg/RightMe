@@ -1,3 +1,4 @@
 import enchant
+
 d = enchant.Dict("en_US")
-print(d.suggest('hook'))
+print(d.suggest("hook"))
